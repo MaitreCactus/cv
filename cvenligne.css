@@ -12,7 +12,7 @@ body{
 header{
 	width: 100%;
 	height: 673px;
-	background: url("/home/ayoub/Bureau/cv/diagmonds.png");
+	background: url("diagmonds.png");
 	background-attachment: fixed;
 	background-color:red ;
 	
@@ -86,7 +86,7 @@ a{
 	flex-direction: row;
 	width: 100%;
 	height: 400px;
-	background: url(/home/ayoub/Bureau/cv/diagmonds.png);
+	background: url("diagmonds.png");
 	background-color:red ;
 
 }
