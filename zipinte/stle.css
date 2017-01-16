@@ -1,0 +1,45 @@
+body{
+	margin:0 auto;
+	background: url(img2.jpeg);
+	opacity : 0.7;
+  background-color : rgba(0, 0, 0,0.9);
+	background-attachment: fixed;
+	background-blend-mode: soft-light;
+
+}
+
+img{
+	margin-top: 4%;
+}
+
+p{
+	text-align: center;
+	font-size: 25px;
+	color: white;
+  
+}
+
+.yo{
+	float: right;
+	margin-right: 10%;
+	margin-top: 5%;
+	font-size:40px!important;
+	color: white;
+}
+
+.yoyo{
+  margin-left: 45%;
+	font-size:80px!important;
+	color: white;
+ 
+
+}
+
+.ii{
+	border: 1px solid white;
+	width: 30%;
+	margin-left: 34%;
+}
+
+.modal{  
+}
