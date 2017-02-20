@@ -16,7 +16,7 @@
 <header>
 	
 		
-		<h1>Développeur-Web Full-Stack Junior</h1>
+		<h1>Développeur-Web Junior</h1>
 		<h2>|Malik Khelfa| </h2>
 		<nav>
 			<ul>
@@ -32,7 +32,8 @@
 	<div id="Qui">
 
 	<p>Issu de la branche du commerce et aprés deux ans d'expériences professionnels.<br> J'ai fais le choix de changer de profession,<br> pour me tourner vers un secteur d'avenir, le numérique.<br>J'ai par la suite intégré 'Upto', labelisée grande école du numérique.
-	<br>Une formation pour apprendre le développement-Web<br>avec pour apprentissage une méthode innovante basée sur 90% de pratique.<br>Je souhaite me spécialiser dans le développement-Mobile.<br>
+	<br>Une formation pour apprendre le développement-Web<br>avec pour apprentissage une méthode innovante basée sur 90% de pratique.<br>Je souhaite me spécialiser dans le développement-Mobile (Ionic, Cordova).<br>
+
 
 	</p>
 		</div>
@@ -47,13 +48,13 @@
 			</ul>
 				</div>
 					<div id="Comp">
-					<h3>|Langages front-end|</h3>
+					<h3>|Langages en cours|</h3>
 						<img src="html5-couleur.png">
 						<img src="css3-couleur.png">
 						<img src="JS-couleur.png">
 						<img id="angu" src="angular-js-color.png">
 						<img id="symp" src="symphony-couleur.png">
-						
+						<img src="http://upto-numerique.fr/img/langages/php-couleur.png">
 							
 							
 						</div>
