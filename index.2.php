@@ -93,11 +93,11 @@
 
 			</figure><!--
 			--><figure>
-				<img src="screenshots/player-closed.png" width="640" height="310" />
+				<img src="template.png" width="640" height="310" />
 				<figcaption>Deuxième Mois </figcaption>
 			</figure><!--
 			--><figure>
-				<img src="maquette.png" width="640" height="310" />
+				<img src="WipMaquette.jpg" width="640" height="310" />
 				<figcaption>Troisième Mois</figcaption>
 
 			</figure><!--
