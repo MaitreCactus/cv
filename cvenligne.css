@@ -21,12 +21,58 @@ header{
 
 header h1{
 	text-align: center;
-	font-size: 50px;
+	font-size: 60px;
 	padding-top: 15%;
-	font-family:'Black Ops One',sans-serif ;
+	font-family:'Lobster',sans-serif ;
+	color: white;	
+	-webkit-animation: tourne 3s infinite;
+  -moz-animation: tourne 3s infinite;
+  animation: tourne 3s infinite;
+  animation-iteration-count: 1; 
+}
+
+@-webkit-keyframes tourne {
+    0% {
+    
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes tourne {
+  0% {
+   
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+   
+    -moz-transform: rotate(360deg);
+  }
+}
+@keyframes tourne {
+  0% {
+    
+    transform: rotate(0deg);
+  }
+  100% {
+   
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+header h2{
+	text-align: center;
+	font-size: 36px;
+	padding-top: 10%;
+	font-family:'Black Ops One',sans-serif;
 	color: white;
 	animation-name: slideLeftReturn;
-	animation-duration: 2s;
+	animation-duration: 2s;	
 }
 
 @keyframes slideLeftReturn {
@@ -41,17 +87,6 @@ header h1{
     transform: translateX(0%);
 
   }
-}
-
-
-header h2{
-	text-align: center;
-	font-size: 38px;
-	padding-top: 10%;
-	font-family:'Lobster',sans-serif;
-	color: white;
-	
-	
 }
 
 nav{
@@ -72,8 +107,8 @@ nav ul li {
 	text-align: center;
 	margin: 3%;
 	font-size: 20px;
-	font-family: 'Cabin', sans-serif;
-	color:#f4991a ;	
+	font-family: 'Francois One', sans-serif;
+	color :white;	
 }
 
 a{
@@ -82,92 +117,79 @@ a{
 }
 
 #Qui{
+	display: flex;
+	flex-direction: column;
 	width: 100%;
-	height: 400px;
-	background-color:#ff9000 ;
-	
-}
+	height: 500px;
+	}
 
 #Qui p{
+	display: inline-block;
 	text-align: center;
 	font-size: 22px;
 	line-height: 40px;
-	padding-top: 3%;
-	font-family: 'Cabin', sans-serif;
-	color: white;
+	font-family: 'Pacifico',sans-serif;
+	color: #234c63;
+	padding-top: 2%;
 }
 
-
-
-#deux{
+.ffff{
 	display: flex;
 	flex-direction: row;
-	width: 100%;
-	height: 400px;
-	background: url("diagmonds.png");
-	background-color:red ;
+	justify-content:space-around;
+	margin-top: 5%;
+  left: 50px;
+  top: 50px;
+	padding-top: 5%;
+}
 
+ .One{
+
+	width: 80px;
+	height: 80px;
 }
 
 #expe{
-	width: 50%;
-	height: 400px;
-}
-
-#expe h3{
-	text-align: center;
-	font-family: 'Cabin', sans-serif;
-	font-size: 22px;
-	padding-top: 3%;
-	color: white;
+	width: 100%;
+	height: 500px;
+	background-color: #234c63;
 }
 
 #expe ul li{
-	text-align: center;
+	padding-top: 1%;
+	display: flex;
+	justify-content: center;
 	list-style: none;
-	font-size: 22px;
-	line-height: 250%;
-  padding-top: 2%;
-	margin-top: 3%;
+	line-height: 50px;
 	color: white;
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Francois One',sans-serif;
+	font-size: 20px;
+	animation-name: slideLeftReturn;
+	animation-duration: 2s;
 }
 
-#Comp{
-	width: 50%;
-	height: 400px;
-	
-}
-
-#Comp h3{
+#expe p{
 	text-align: center;
-	font-family: 'Cabin', sans-serif;
-	font-size: 24px;
-	padding-top: 3%;
-	color: white;
+	line-height: 50px;
+	font-family: 'Architects Daughter',sans-serif;
+	font-size: 20px;
+	animation-name: p;
+	animation-duration: 2s;	
 }
 
-#Comp img{
-	margin: 3%;
-	padding-left: 2%;
-	width: 80px;
-	height: 80px;
-	margin-top: 11%;
+@keyframes p {
+  0% {
+    transform-origin: 0 0;
+    transform: translateX(100%);
+  }
+
+  100% {
+
+    transform-origin: 0 0;
+    transform: translateX(0%);
+
+  }
 }
-
-#angu{
-	width: 80px;
-	height: 80px;
-	margin-top: 7%;
-}
-
-#symp{
-	width: 100px;
-	height: 100px;
-	margin-top: 7%;
-}
-
-
 
 #preslider{
 	height: 500px;
@@ -542,12 +564,21 @@ a{
 	97%			{ opacity: 0; left: 54px;	}
 	98%			{ opacity: 0; left: 0;	}
 }
+
+
+
+	
+
+
+
+
+
 #footer{
 	width: 100%;
 	height: 400px;
 	display: flex;
 	flex-direction: row;
-	background-color:#233142;
+	background-color: #234c63;
 }
 
 
@@ -559,7 +590,7 @@ a{
 
 #cont h4{
 	padding-left: 35%;
-  font-family: 'Cabin', sans-serif;
+  	font-family: 'Francois One',sans-serif;
 	font-size:22px;
 	padding-top: 3%;
 	color: white;
@@ -580,7 +611,7 @@ a{
 #cont2 h4{
 	text-align: center;
 	font-size: 22px;
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Francois One',sans-serif;
 	color:white ;
   	padding-top: 3%;
 }
@@ -590,17 +621,3 @@ a{
 	margin-left: 20%;
 	margin-top: 20%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
