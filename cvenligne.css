@@ -128,7 +128,7 @@ a{
 	text-align: center;
 	font-size: 22px;
 	line-height: 40px;
-	font-family: 'Pacifico',sans-serif;
+	font-family: 'Francois One',sans-serif;
 	color: #234c63;
 	padding-top: 2%;
 }
@@ -175,6 +175,7 @@ a{
 	font-size: 20px;
 	animation-name: p;
 	animation-duration: 2s;	
+	color:#ff9000 ;
 }
 
 @keyframes p {
@@ -199,7 +200,7 @@ a{
 
 #preslider h3{
 	text-align: center;
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Francois One', sans-serif;
 	font-size: 24px;
 	padding-top: 3%;
 	color: white;
