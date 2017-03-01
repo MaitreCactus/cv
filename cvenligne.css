@@ -601,7 +601,7 @@ a{
 	height: 80px;
 	width: 150px;
 	margin: 4%;
-	
+	margin-top: 20%;
 }
 
 #cont2{
@@ -620,5 +620,5 @@ a{
 .fa{
 	margin: 5%;
 	margin-left: 20%;
-	
+	margin-top: 20%;
 }
